@@ -21,7 +21,7 @@ body{
     width: 10em;
     height: 10em;
     border-radius: 50%;
-    box-shadow: 0 0 3em white;
+    box-shadow: 0 0 8em rgb(245, 247, 146);
 }
 .eart, .moom{
     position: absolute;
@@ -60,12 +60,13 @@ body{
     width: 3em;
     height: 3em;
     background-color: aqua;
+    box-shadow: 0 0 100em rgb(23, 252, 233);
 }
 .moom::before{
     top: 0.8em;
     right: 0.2em;
-    width: 1.2em;
-    height: 1.2em;
+    width: 1em;
+    height: 1em;
     background-color: silver;
 }
 @keyframes orbit {
